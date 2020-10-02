@@ -4,7 +4,7 @@ import Row from "./components/Row";
 import { requests } from "./request";
 import Banner from "./components/Banner";
 import Navbar from "./components/Navbar";
-
+const dotenv = require("dotenv").config();
 function App() {
   return (
     <div className="app">
